@@ -1,0 +1,226 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    width: 50%;
+}
+
+.left__img {
+    width: 100%;
+    border: 2px solid rgb(77, 219, 255);
+    border-radius: 0 10px 10px 0;
+}
+
+.left__img2{
+    border: 2px solid #000;
+}
+
+.left__img3{
+    border: 2px solid #ea00ff;
+}
+
+.title.title2{
+    color: #000;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+
+.title {
+    font-size: 70px;
+    color: rgb(77, 219, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+
+
+
+
+.cost {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(93, 109, 109);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    width: 320px;
+    height: 70px;
+    background: rgb(77, 219, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 35px;
+    color: #000;
+    gap: 10px;
+    transition: 0.5s;
+}
+
+.title4{
+    color: #fff;
+}
+
+
+
+
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgb(77, 219, 255);
+}
+
+.title3{
+    color: red;
+}
+
+.btn2{
+    background: #000;
+    color: #fff;
+}
+
+.btn2:hover{
+    box-shadow: 0 0 20px #000;
+}
+
+.btn3{
+    background: blueviolet;
+}
+
+.btn3:hover{
+    box-shadow: 0 0 20px blueviolet;
+}
+
+.left__img4{
+    border: 1px solid #eee;
+}
+
+.btn4{
+    color: #000;
+    background: #fff;
+    border: 1px solid #eee;
+}
+
+.btn4:hover{
+    box-shadow: 0 0 20px #eee;
+}
+
+.txt {
+    text-align: center;
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .icons{
+    position: absolute;
+    z-index: 3;
+} */
+
+.icon{
+    padding: 20px 24px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 30px #bbb;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icon:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 50px #a8a8a8;
+    
+}
+
+.icon2{
+    left: 20px;
+    position: absolute;
+    z-index: 99;
+    width: 60px;
+    transition: 0.4s;
+}
+
+
+
+.icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    width: 60px;
+    z-index: 99;
+}
+
+header{
+    background: #bbb;
+}
+
+
+.rs__card {
+    display: flex;
+    width: 95%;
+    height: 80vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(77, 219, 255);
+    border-radius: 10px;
+    background: #eee;
+    position: absolute;
+}
+
+.rs__card2{
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+
+
+.rs__card3{
+    border: 1px solid rgb(0, 255, 13);
+}
+
+
+
+.rs__card4{
+    border: 1px solid #bbb; 
+}
+
